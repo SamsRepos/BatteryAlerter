@@ -11,7 +11,7 @@ def seconds_to_hours(secs):
     hh, mm = divmod(mm, 60)
     return "%d:%02d:%02d" % (hh, mm, ss)
 
-PERCENTAGE_THRESHOLD = 95
+PERCENTAGE_THRESHOLD = 15
 SECONDS_BETWEEN_CHECKS = 8
 
 DIALOG_TITLE = "LOW BATTERY!"
