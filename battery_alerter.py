@@ -36,7 +36,7 @@ if __name__ == '__main__':
     clear()
     for message in messages:
       print(message)
-    print(f"- last update: {datetime_formatted(datetime.now())}")
+    print(f"Last update: {datetime_formatted(datetime.now())}")
 
     if (percent < PERCENTAGE_THRESHOLD) and not plugged_in:
       winsound.PlaySound('./sfx/alert.wav', winsound.SND_FILENAME)
