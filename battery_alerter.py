@@ -30,7 +30,8 @@ if __name__ == '__main__':
 
     messages = [f"Charge = {percent}%", 
                 f"Estimated time left = {seconds_to_hours(secs_left)}",
-                "Plugged in" if plugged_in else "Not plugged in"
+                "Plugged in" if plugged_in else "Not plugged in",
+                f"Will alert when battery drops to {PERCENTAGE_THRESHOLD}%"
                ]
 
     clear()
